@@ -1,15 +1,26 @@
 public class person {
-    public static int age = 16;
+    public int age = 16;
 
-    public static void print_age() {
+    String name = "Carter";
+    public void print_age() {
         System.out.println("Age: " + age);
     }
     
-    public static  void make_older() {
+    public  void make_older() {
         age++;
     }
 
-    public static void make_younger() {
+    public void make_younger() {
         age--;
+    }
+
+    public void new_attributes (int new_age, String new_name)
+    {
+        age = new_age;
+        name = new_name;
+    }
+
+    public int get_age () {
+        return age;
     }
 }

@@ -2,10 +2,13 @@ public class action {
 
     
     public static void main(String[] args) {
-        person.print_age();
-        person.make_older();
-        person.print_age();
-        person.make_younger();
-        person.print_age();
+        person Carter = new person();
+        Carter.print_age();
+        Carter.make_older();
+        Carter.print_age();
+        Carter.make_younger();
+        Carter.print_age();
+        Carter.new_attributes(20, "John");
+        Carter.get_age();
     }
 }
